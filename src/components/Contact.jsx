@@ -37,13 +37,13 @@ export default function Contact() {
             viewport={{ once: true, amount: 0.3 }}
             transition={{ duration:  0.8, ease: "easeOut"  }}
 
-            className="bg-[#e6eeff] dark:bg-[#020617] py-28 px-6 md:px-16"
+            className="bg-background dark:bg-background py-28 px-6 md:px-16"
             id="contact"
             >
             <div className="max-w-6xl mx-auto relative">
 
                 {/* CONTACT CARD */}
-                <div className="bg-[#0e1c38]/80 backdrop-blur-xl rounded-3xl shadow-2xl grid md:grid-cols-2 gap-12 p-10 md:p-14 relative z-10">
+                <div className="bg-cards-color/80 backdrop-blur-xl rounded-3xl shadow-2xl grid md:grid-cols-2 gap-12 p-10 md:p-14 relative z-10">
 
                     {/* LEFT SIDE */}
 
@@ -160,7 +160,7 @@ export default function Contact() {
 
                         <button
                         type="submit"
-                            className="w-full bg-blue-600 text-gray-100 py-3 rounded-lg
+                            className="w-full bg-button-background text-gray-100 py-3 rounded-lg
                                         font-medium hover:bg-blue-800 transition cursor-pointer"
                         >
                             Send Message

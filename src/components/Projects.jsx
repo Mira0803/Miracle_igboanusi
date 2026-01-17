@@ -22,7 +22,7 @@ export default function Projects() {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true, amount: 0.3 }}
             transition={{ duration:  0.8, ease: "easeOut"  }}
-            className="min-h-screen bg-[#0e1c38]/80 dark:bg-[#0e1c38]/90 py-15 px-6 md:px-16 overflow-hidden"
+            className="min-h-screen bg-secondary-background/80 dark:bg-secondary-background/90 py-15 px-6 md:px-16 overflow-hidden"
             id="projects"
             >
             
@@ -82,9 +82,9 @@ export default function Projects() {
                             <div
                             key={index}
                             className="min-w-70 sm:min-w-[320px] lg:min-w-90
-                                        snap-start bg-[#c7d2fe] dark:bg-[#0e1c38] backdrop-blur-3xl rounded-2xl overflow-hidden
+                                        snap-start bg-border dark:bg-border backdrop-blur-3xl rounded-2xl overflow-hidden
                                         shadow-2xl hover:shadow-xl/20 transition
-                                        border-[#c7d2fe] dark:border-[#0e1c38] border-8"
+                                        border-border dark:border-border border-8"
                             >
                             {/* Image */}
                             <img

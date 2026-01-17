@@ -63,8 +63,8 @@ export default function Hero() {
                                 }}
 
                     onClick={() => window.open("https://wa.me/+2349123613888", "_blank")} 
-                    className="cursor-pointer mt-8 bg-blue-600 hover:bg-blue-700 dark:bg-blue-500
-                            dark:hover:bg-blue-600 px-8 py-3 rounded-full font-medium transition"
+                    className="cursor-pointer mt-8 bg-button-background hover:bg-blue-700 dark:bg-blue-500
+                            dark:hover:bg-button-background px-8 py-3 rounded-full font-medium transition"
                             >
                     Lets Talk
                 </Motion.motion.button>
@@ -74,7 +74,7 @@ export default function Hero() {
             <div className="relative flex justify-center">
             
             {/* Main Image */}
-            <div className="bg-blue-100 dark:bg-[#1b3466] p-3 rounded-t-full shadow-2xl dark:shadow-blue-900/40">
+            <div className="bg-background dark:bg-[#1b3466] p-3 rounded-t-full shadow-2xl dark:shadow-blue-900/40">
                 <img
                 src="/profile-image 2.jpg"
                 alt="Profile"
@@ -83,7 +83,7 @@ export default function Hero() {
             </div>
 
             {/* Floating Image (Desktop only) */}
-            <div className="hidden md:block absolute -bottom-12 right-0 bg-blue-300 dark:bg-[#020617] p-3 rounded-t-full shadow-2xl dark:shadow-black/60">
+            <div className="hidden md:block absolute -bottom-12 right-0 bg-blue-300 dark:bg-background p-3 rounded-t-full shadow-2xl dark:shadow-black/60">
                 <img
                 src="/profilepofolio.jfif"
                 alt="Profile"

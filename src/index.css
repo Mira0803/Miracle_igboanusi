@@ -22,7 +22,7 @@ html {
 }
 
 
-/* 
+
 @theme {
 
     --color-background: #e6eeff;        
@@ -37,9 +37,6 @@ html {
 
     --color-border: #c7d2fe;
 
-    --radius-md: 1rem;
-    --radius-lg: 1.5rem;
-    --radius-xl: 2rem;
 }
 
 
@@ -54,8 +51,8 @@ html {
     --color-button-background: #155dfc;            
     --color-button-hover: #193cb8;
 
-    --color-border: #020617;
+    --color-border: #0e1c38;
 }
 
 
- */
+
