@@ -24,7 +24,7 @@ export default function Contact() {
             alert("Message sent successfully ✅");
             formRef.current.reset();
         })
-        
+
         .catch(() => {
             alert("Something went wrong ❌");
         });
@@ -68,7 +68,7 @@ export default function Contact() {
                                 }}
                                 className="w- h-60 mb-8 overflow-hidden rounded-xl shadow-lg">
                             <img
-                                src="/src/assets/contact_me.png"
+                                src="/contact_me.png"
                                 alt="Contact me"
                                 className="w-full h-full object-center object-cover"
                             />

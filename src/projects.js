@@ -5,7 +5,7 @@ const projects = [
         description:
         "A word-guessing game where players try to assemble words from jumbled letters.",
         tech: ["React", "CSS", "Javascript"],
-        image: "/src/assets/words-game.jpg",
+        image: "/words-game.jpg",
         live: "https://mira-assemble-endgame.vercel.app/",
         github: "https://github.com/Mira0803/mira-assemble-endgame",
     },
@@ -15,7 +15,7 @@ const projects = [
         description:
         "A local food menu ordering app with cart functionality and smooth UX.",
         tech: ["HTML", "CSS", "JavaScript"],
-        image: "/src/assets/food-menu.jpg",
+        image: "/food-menu.jpg",
         live: "https://mira0803.github.io/task-7-foodMenu",
         github: "https://github.com/Mira0803/task-7-foodMenu",
     },
@@ -25,7 +25,7 @@ const projects = [
         description:
         "A site that help you Book Your Doctor's appointment affortlessly. i was oppurtuned to be part of the team that created this project.",
         tech: ["HTML", "CSS", "JavaScript"],
-        image: "/src/assets/medora-book-appointment.JPG",
+        image: "/public/medora-book-appointment.jpg",
         live: "https://learnable-bst.vercel.app/appointment.JPG",
         github: "https://github.com/Mira0803/learnable-medora",
     },
@@ -35,7 +35,7 @@ const projects = [
         description:
         "A fun and interactive Tenzie game built with React, where players roll dice to match all values.",
         tech: ["React", "CSS", "Javascript"],
-        image: "/src/assets/tenzie-project.jpg",
+        image: "/tenzie-project.jpg",
         live: "https://miras-tenzies-game.vercel.app/",
         github: "https://github.com/Mira0803/miras-tenzies-game",
     },
@@ -45,7 +45,7 @@ const projects = [
         description:
         "A sleek and modern landing page for a fictional tech product called Swift.",
         tech: ["React", "CSS", "Javascript"],
-        image: "/src/assets/swift-project.jpg",
+        image: "/swift-project.jpg",
         live: "https://mira0803.github.io/week4-task/task4.html",
         github: "https://github.com/Mira0803/week4-task",
     },
@@ -55,7 +55,7 @@ const projects = [
         description:
         "A simple and charming birthday card webpage to celebrate special occasions.",
         tech: ["HTML", "CSS", "Javascript"],
-        image: "/src/assets/birthday-card.PNG",
+        image: "/birthday-card.png",
         live: "https://mira0803.github.io/Birthday-card",
         github: "https://github.com/Mira0803/Birthday-card",
     },

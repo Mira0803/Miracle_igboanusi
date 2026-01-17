@@ -12,7 +12,7 @@ export default function Hero() {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true, amount: 0.3 }}
             transition={{ duration:  0.8, ease: "easeOut"  }}
-            className="relative min-h-screen bg-[url('/src/assets/bgpofilio.jfif')] bg-cover bg-center flex items-center justify-center dark:brightness-75 dark:saturate-75"
+            className="relative min-h-screen bg-[url('/bgpofilio.jfif')] bg-cover bg-center flex items-center justify-center dark:brightness-75 dark:saturate-75"
             id="home"
             >
         {/* Overlay */}
@@ -76,7 +76,7 @@ export default function Hero() {
             {/* Main Image */}
             <div className="bg-blue-100 dark:bg-[#1b3466] p-3 rounded-t-full shadow-2xl dark:shadow-blue-900/40">
                 <img
-                src="/src/assets/profile-image 2.JPG"
+                src="/profile-image 2.jpg"
                 alt="Profile"
                 className="w-52 h-64 md:w-60 md:h-72 object-cover rounded-t-full"
                 />
@@ -85,7 +85,7 @@ export default function Hero() {
             {/* Floating Image (Desktop only) */}
             <div className="hidden md:block absolute -bottom-12 right-0 bg-blue-300 dark:bg-[#020617] p-3 rounded-t-full shadow-2xl dark:shadow-black/60">
                 <img
-                src="/src/assets/profilepofolio.jfif"
+                src="/profilepofolio.jfif"
                 alt="Profile"
                 className="w-44 h-56 object-cover rounded-t-full rounded-br-full"
                 />
