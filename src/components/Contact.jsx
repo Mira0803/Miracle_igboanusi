@@ -14,15 +14,17 @@ export default function Contact() {
         e.preventDefault();
 
         emailjs.sendForm(
-            "service_jq022nc",
-            "template_2vwj442",
+            import.meta.env.VITE_EMAILJS_SERVICE_ID,
+            import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
             formRef.current,
-            "x4hEZkUjlPloCvlty"
-        )
+            import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+            )
+
         .then(() => {
             alert("Message sent successfully ✅");
             formRef.current.reset();
         })
+        
         .catch(() => {
             alert("Something went wrong ❌");
         });
