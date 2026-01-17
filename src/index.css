@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+.scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+section {
+    scroll-margin-top: 6rem;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* 
+@theme {
+
+    --color-background: #e6eeff;        
+    --color-text-color: #020617;
+    --color-secondary-background: #0e1c38;        
+
+    --color-cards-color: #0e1c38;
+    --color-card-glass: rgba(14, 28, 56, 0.08);
+
+    --color-button-background: #155dfc;            
+    --color-button-hover: #193cb8;                
+
+    --color-border: #c7d2fe;
+
+    --radius-md: 1rem;
+    --radius-lg: 1.5rem;
+    --radius-xl: 2rem;
+}
+
+
+.dark {
+    --color-background: #020617;
+    --color-text-color: #f8fafc;
+    --color-secondary-background: #0e1c38;
+
+    --color-cards-color: #0e1c38;
+    --color-card-glass: rgba(14, 28, 56, 0.08);
+
+    --color-button-background: #155dfc;            
+    --color-button-hover: #193cb8;
+
+    --color-border: #020617;
+}
+
+
+ */
