@@ -25,8 +25,8 @@ const projects = [
         description:
         "A site that help you Book Your Doctor's appointment affortlessly. i was oppurtuned to be part of the team that created this project.",
         tech: ["HTML", "CSS", "JavaScript"],
-        image: "/public/medora-book-appointment.jpg",
-        live: "https://learnable-bst.vercel.app/appointment.JPG",
+        image: "/medora-book-appointment.jpg",
+        live: "https://learnable-bst.vercel.app/appointment.html",
         github: "https://github.com/Mira0803/learnable-medora",
     },
     {
